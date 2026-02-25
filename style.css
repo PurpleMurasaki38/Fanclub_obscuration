@@ -1,94 +1,81 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
-  color: white;
+margin: 0;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #0f0f1a, #1a1a2e);
+color: #eaeaea;
 }
 
 .banner {
-  background: url('banner.jpg') center/cover;
-  padding: 60px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 0 0 20px black;
+text-align: center;
+padding: 20px;
+background: #111827;
+border-bottom: 2px solid #00ffff;
 }
 
 .navbar {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  background: rgba(0,0,0,0.8);
-  padding: 15px;
+display: flex;
+justify-content: center;
+gap: 30px;
+padding: 15px;
+background: #0f172a;
 }
 
 .navbar a {
-  color: cyan;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.navbar a:hover {
-  color: white;
-  text-shadow: 0 0 10px cyan;
+color: #00ffff;
+text-decoration: none;
+font-weight: bold;
 }
 
 .layout {
-  display: flex;
-  max-width: 1200px;
-  margin: 40px auto;
-  gap: 30px;
+display: flex;
+max-width: 1300px;
+margin: auto;
+padding: 20px;
+gap: 40px;
 }
 
 .infobox {
-  width: 300px;
-  background: rgba(0,0,0,0.6);
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0,255,255,0.5);
-  text-align: center;
+width: 350px;
+background: #111827;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 0 20px #00ffff55;
 }
 
-.infobox img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
+.perfil {
+width: 100%;
+border-radius: 10px;
+margin-bottom: 15px;
 }
 
 .conteudo {
-  flex: 1;
-  background: rgba(0,0,0,0.5);
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0,255,255,0.3);
+flex: 1;
 }
 
-.conteudo h2 {
-  border-bottom: 2px solid cyan;
-  padding-bottom: 5px;
+h2 {
+border-bottom: 2px solid #00ffff;
+padding-bottom: 5px;
+margin-top: 40px;
+}
+
+p {
+line-height: 1.6;
 }
 
 .galeria {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
+display: flex;
+gap: 15px;
+margin-top: 15px;
 }
 
 .galeria img {
-  width: 200px;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.galeria img:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px cyan;
+width: 200px;
+border-radius: 10px;
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background: rgba(0,0,0,0.8);
-  margin-top: 40px;
+text-align: center;
+padding: 20px;
+background: #111827;
+margin-top: 40px;
 }
