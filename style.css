@@ -79,3 +79,8 @@ padding: 20px;
 background: #111827;
 margin-top: 40px;
 }
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
