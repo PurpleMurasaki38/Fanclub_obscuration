@@ -361,3 +361,44 @@ transform: translateY(0);
 }
 
 }
+
+/* COMIC SYSTEM */
+
+.comic-nav{
+
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:20px;
+
+}
+
+.comic-nav a{
+
+background:#00ffff22;
+padding:8px 12px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+
+}
+
+.comic-nav a:hover{
+
+background:#00ffff55;
+
+}
+
+.comic-pages img{
+
+width:100%;
+max-width:900px;
+margin:30px auto;
+display:block;
+
+border-radius:12px;
+
+box-shadow:0 0 20px #00ffff55;
+
+}
